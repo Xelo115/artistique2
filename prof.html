@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'atelier artistique</title>
+    <link rel="stylesheet" href="prof.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body>
+    <div id="div1">
+        <nav class="navLinks">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="prof.html">Disciplines et <br>Professeur</a></li>
+                <li><a href="horaires.html">Horaires et <br>Tarifs</a></li>
+                <li><a href="retrouver.html">Nous <br>Retrouver</a></li>
+                <li><a href="contact.html">Nous <br>Contacter</a></li>
+                <li><a href="actu.html">Actualités</a></li>
+            </ul>
+        </nav>
+        <i class="fa fa-bars fa-2x"></i>
+    </div>
+    <article id="a1">
+        <div id="txt1"><p>Les Disciplines</p></div>
+        <div id="t1"><p>Modern' Jazz</p></div>
+        <div id="t2"><p>Danse comtemporaine</p></div>
+        <div id="mj"><p>Le Modern'Jazz tire son origine de la danse contemporaine et de la comédie musicale. Elle est en évolution constante grâce à un métissage perpétuel.
+            ​<br><br>
+            Le modern'jazz se caractérise par la coordination et l'isolation des mouvements. On danse avec les jambes fléchies et plus près du sol. Cela permet une mobilité des épaules, du bassin, de la colonne vertébrale et de plus grands déplacements. La singularité de cette danse réside dans ce mélange surprenant entre l'énergie et la décontraction presque nonchalante.
+            <br><br>​
+            Cette danse s’adresse à tous ceux qui souhaitent libérer leur esprit, leurs tensions, et ressentir la musique tout en se dépensant</p></div>
+        <div id="dc"><p>Si tout art est « contemporain », donc actuel, pour celui qui le vit à son époque, l'expression « danse contemporaine » a recouvert différentes techniques et esthétiques apparues au cours du xxe siècle.
+            <br><br> ​
+             La danse Contemporaine fait suite, à la danse Moderne, qui, dans les années de 1920 à 1960 révolutionne les codes de la danse Classique.
+             ​<br><br>
+             Elle se métisse aussi parfois avec d'autres arts (comme le théâtre, l'architecture, la vidéo, la littérature, la peinture, les arts plastiques, le cirque…).
+             ​<br><br>
+             Les principes fondamentaux de la danse contemporaine s'axent autour de l'expérimentation du Temps, de l'Énergie, du Poids, de l'Espace, de la sensation.</p></div>
+        <img src="/img/stage-yoga-danse-contemporaine-paysage.jpg" alt="ModernJazz" id="img1">
+        <img src="/img/image_processing20211028-805-1jt17gl.jpeg" alt="comtemporaine" id="img2">
+    </article>
+    <div class="a2">
+        <article id="a2">
+            <div id="t3">Fredéric Sauvage</div>
+            <div id="t4">Professeur diplômé d'état</div>
+            <div id="pr"><p>Frédéric a toujours été passionné de musique sous toutes ces formes et dans tous les styles il l'a d’ailleurs pratiqué dès son plus jeune âge en conservatoire. C'est au début de sa vie d'adulte qu’il a découvert la danse contemporaine au travers de sa rencontre avec Bénédicte Gavériaux et Claire Langagne qui le formeront à celle-ci. Cette passion devient vite viscérale, et il la pratique intensément pour en acquérir les finesses et intégrer la compagnie Extrasystole.
+    
+     <br><br>
+    
+                Frédéric ne veut pas se contenter d'apprendre il a aussi pour but de faire partager sa passion. Abandonnant sa carrière en plasturgie il intègre Danse Création (à Marcq en Baroeul) pour entamer sa formation au diplôme d’État de Danse Contemporaine. Parallèlement, il participe à de nombreux projets menés par Cyril Viallon, Thomas Duchatelets, Thomas Lebrun...
+                
+                 <br><br>
+                
+                Par la suite, il relèvera avec succès le défi de la création en montant la compagnie de l'Amante Sauvage en juin 2002. Naitront par la suite de nombreuses pièces donc la dernière les contes d'Obal.
+                
+                 <br><br>
+                
+                Vingt ans après Fred est toujours animé par la même passion pour l'enseignement. C'est d'ailleurs au sein de ses cours que quelques professionnels ont pu découvrir leur amour pour la danse. Formé à l'accueil des plus jeunes, il sait emporter petits et grands dans son univers et les initier à son art avec une infinie patience et gentillesse.</p></div>
+        <div id="img3"><img src="/img/fred.png" alt="Frederic Sauvage"></div>
+        </article>
+    </div>
+</body>
+<footer>
+    <div id="footer">    <div id="aae"><a href="https://www.aae62.fr/AssociationActionEducative/" target="https://www.aae62.fr/AssociationActionEducative/"><img src="/img/Logo_AAE.webp" alt="logo aae"></a></div>
+    <div id="anz"><a href="http://ville-anzin-saint-aubin.fr/" target="http://ville-anzin-saint-aubin.fr/"><img src="/img/Logo_Anzin.webp" alt="ville Anzin-st-Aubin"></a></div>
+</div>
+<script>
+    const menuHamburger = document.querySelector(".fa")
+    const navLinks = document.querySelector(".navLinks")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</footer>
+</html>

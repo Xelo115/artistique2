@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'atelier artistique</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body>
+    <div id="nav">
+        <nav class="navLinks">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="prof.html">Disciplines et <br>Professeur</a></li>
+                <li><a href="horaires.html">Horaires et <br>Tarifs</a></li>
+                <li><a href="retrouver.html">Nous <br>Retrouver</a></li>
+                <li><a href="contact.html">Nous <br>Contacter</a></li>
+                <li><a href="actu.html">Actualités</a></li>
+            </ul> 
+        </nav>
+        <i class="fa fa-bars fa-2x"></i>
+    </div>
+    <div class="container">
+        <div class="contact">
+            <div id="titre"><p id="b1">Nous Contacter</p></div>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-droite">
+            <input type="hidden" name="access_key" value="7ae479e1-2c77-4255-b825-ba7f34e7baa1">
+            <div id="titre2"><p id="b2">Par Mail</p></div>
+            <input type="text" name="name" placeholder="Votre Nom" class="contact-input contact-nom" required>
+            <input type="email" name="email" placeholder="Votre Email" class="contact-input contact-mail" required>
+            <textarea name="message" placeholder="Votre Message" class="contact-input contact-txt" required></textarea>
+            <button type="submit" id="button">Envoyer</button>
+        </form>
+        <div class="contact-gauche">
+            <div id="pt"><p id="b2">Par Téléphone</p></div>
+            <div id="role"><p id="b2">Président : <br>Frédéric Scalbert</p></div>
+            <div id="nom"><p id="b3">06.30.30.01.49</p></div>
+        </div>
+        </div>
+    </div>
+    
+</body>
+<script>
+    const menuHamburger = document.querySelector(".fa")
+    const navLinks = document.querySelector(".navLinks")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+<footer>
+    <div id="footer">    <div id="aae"><a href="https://www.aae62.fr/AssociationActionEducative/" target="https://www.aae62.fr/AssociationActionEducative/"><img src="/img/Logo_AAE.webp" alt="logo aae"></a></div>
+    <div id="anz"><a href="http://ville-anzin-saint-aubin.fr/" target="http://ville-anzin-saint-aubin.fr/"><img src="/img/Logo_Anzin.webp" alt="ville Anzin-st-Aubin"></a></div>
+</div>
+</footer>
+</html>

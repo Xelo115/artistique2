@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'atelier artistique</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body>
+    <div id="div1">
+        <nav class="navLinks">
+            <ul>
+                <li><a href="index.html">Présentation</a></li>
+                <li><a href="prof.html">Disciplines et <br>Professeur</a></li>
+                <li><a href="horaires.html">Horaires et <br>Tarifs</a></li>
+                <li><a href="retrouver.html">Nous <br>Retrouver</a></li>
+                <li><a href="contact.html">Nous <br>Contacter</a></li>
+                <li><a href="actu.html">Actualités</a></li>
+            </ul>
+        </nav>
+        <i class="fa fa-bars fa-2x"></i>
+    </div>
+    <div id="div2">
+        <article>
+            <img src="/img/logo-noir.png" alt="logo" id="fu">
+            <p>L'Atelier Artistique est une association de danse, située dans la périphérie d'Arras, dont les cours sont dispensés par des professeurs diplômés d'état.
+
+                <br>​<br>
+                
+                L'Atelier Artistique met tout en oeuvre pour que chacun puisse s'épanouir, apprendre et s'améliorer à son rythme, jusqu'à se surpasser, dans la bonne humeur et la bienveillance.
+                
+                <br>​<br>
+                
+                L'association est forte de ses bénévoles investis, de professeurs attentifs, accueillants et passionnés. 
+                
+                <br><br>​
+                
+                Votre satisfaction est notre priorité.</p>
+        </article>
+    </div>
+    <div id="div3">
+        <img src="/img/affiche photo -0571.webp" alt="affiche">
+    </div>
+    <div id="div4">
+        <p id="txt1">Années 2023-2024</p>
+        <p id="txt2">Inscriptions</p>
+        <p id="txt3">Semaine du 11 septembre lors des 1ers cours <br><br> Rendez-vous le 3 septembre de 10h à 17h <br>Forum de Anzin-st-Aubin : démonstration à 11h ! Venez nombreux !</p>
+        <a href="/pdf/Feuille d_inscription_2023 2024 V4.pdf" target="/pdf/Feuille d_inscription_2023 2024 V4.pdf"><p id="ui">Fiche d'inscription</p><i class="fas fa-download fa-x"></i>
+        </a>
+    </div>  
+</body>
+<footer>
+    <div id="footer">    <div id="aae"><a href="https://www.aae62.fr/AssociationActionEducative/" target="https://www.aae62.fr/AssociationActionEducative/"><img src="/img/Logo_AAE.webp" alt="logo aae"></a></div>
+    <div id="anz"><a href="http://ville-anzin-saint-aubin.fr/" target="http://ville-anzin-saint-aubin.fr/"><img src="/img/Logo_Anzin.webp" alt="ville Anzin-st-Aubin"></a></div>
+</div>
+<script>
+    const menuHamburger = document.querySelector(".fa")
+    const navLinks = document.querySelector(".navLinks")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+</footer>
+</html>
